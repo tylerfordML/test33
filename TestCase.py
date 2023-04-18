@@ -19,3 +19,5 @@ def test_search_last_element():
 	assert search(4, [1, 2, 3, 4]) == 3, 'search last element'
 def test_search_find_element():
 	assert search(2, [1, 2, 3, 4]) == 1, 'search for element'
+def test_search_find_element2():
+	assert search(2, [1, 2, 3, 4]) == 1, 'search for element'
